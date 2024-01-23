@@ -1,0 +1,61 @@
+[System]
+Name='IP_FIS'
+Type='mamdani'
+Version=2.0
+NumInputs=4
+NumOutputs=1
+NumRules=8
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Theta'
+Range=[-3.14159265358979 3.14159265358979]
+NumMFs=2
+MF1='Negative':'zmf',[-0.5 0.5]
+MF2='Positive':'smf',[-0.5 0.5]
+
+[Input2]
+Name='Theta_dot'
+Range=[-5 5]
+NumMFs=2
+MF1='Negative':'zmf',[-5 5]
+MF2='Positive':'smf',[-5 5]
+
+[Input3]
+Name='x_position'
+Range=[-5 5]
+NumMFs=2
+MF1='Negative':'zmf',[-0.1 0.1]
+MF2='Positive':'smf',[-0.1 0.1]
+
+[Input4]
+Name='x_velocity'
+Range=[-0.5 0.5]
+NumMFs=2
+MF1='Negative':'zmf',[-0.01 0.01]
+MF2='Positive':'smf',[-0.01 0.01]
+
+[Output1]
+Name='Force'
+Range=[-20 20]
+NumMFs=6
+MF1='NM':'gbellmf',[5 2 -12]
+MF2='PM':'gbellmf',[5 2 12]
+MF3='NL':'gbellmf',[5 2 -20]
+MF4='PL':'gbellmf',[5 2 20]
+MF5='NS':'gbellmf',[1.5 1.5 -1.5]
+MF6='PS':'gbellmf',[1.5 1.5 1.5]
+
+[Rules]
+1 0 0 0, 1 (1) : 1
+2 0 0 0, 2 (1) : 1
+0 1 0 0, 4 (1) : 1
+0 2 0 0, 3 (1) : 1
+0 0 2 0, 6 (1) : 1
+0 0 1 0, 5 (1) : 1
+0 0 0 2, 6 (1) : 1
+0 0 0 1, 5 (1) : 1
