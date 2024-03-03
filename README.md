@@ -11,11 +11,14 @@ Then, open the following Simulink model and run it
 
 ```
 
-dynamic_model_v4.slxc
+dynamic_model_v4.slx
 
 ```
 
 ## For more details
+
 ```
+
 see report_final.pdf
 
+```
