@@ -1,5 +1,21 @@
 # Neural network based adaptive controller for end-effector tracking of redundant manipulators
 
+## How to run the Simulink Model?
+
+Open MATLAB and run the following command
 ```
-see final_report.pdf
+run dynamic_model_code.m
+
+```
+Then, open the following Simulink model and run it
+
+```
+
+dynamic_model_v4.slxc
+
+```
+
+## For more details
+```
+see report_final.pdf
 
