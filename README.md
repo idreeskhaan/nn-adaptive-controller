@@ -44,7 +44,7 @@ dynamic_model_v4.slx
 
 
 ### References
-```json
+```
 [1]  B.  Daachi  and  A.  Benallegue,  "A  Neural  Network 
 Adaptive Controller for End-effector Tracking of Redundant 
 Robot  Manipulators,"  Journal  of  Intelligent  and  Robotic 
