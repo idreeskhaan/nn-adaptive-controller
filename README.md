@@ -42,3 +42,13 @@ dynamic_model_v4.slx
 ## Tracking Errors Graph
 <img src="tracking-errors.png" width="600px"></img>
 
+
+### References
+```json
+[1]  B.  Daachi  and  A.  Benallegue,  "A  Neural  Network 
+Adaptive Controller for End-effector Tracking of Redundant 
+Robot  Manipulators,"  Journal  of  Intelligent  and  Robotic 
+Systems, vol. 46, pp. 245-262, 2006. DOI: 10.1007/s10846-
+006-9060-6.
+```
+
