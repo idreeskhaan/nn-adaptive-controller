@@ -50,5 +50,10 @@ Adaptive Controller for End-effector Tracking of Redundant
 Robot  Manipulators,"  Journal  of  Intelligent  and  Robotic 
 Systems, vol. 46, pp. 245-262, 2006. DOI: 10.1007/s10846-
 006-9060-6.
+[2] R. Barua, S. Kumar, A. Mallik, and A. Singh,
+"Experimental Analysis the Dynamic Model of 3DOF
+Robotic Arm," in Proceedings of the 6th International
+Conference on Robotics, 2021, pp. 20-26.
 ```
+
 
