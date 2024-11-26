@@ -30,7 +30,7 @@ Open MATLAB and run the following command:
 ```
 run dynamic_model_code.m
 ```
-Then, open the following Simulink model:
+The MATLAB code runs everything, however the model can be found in the following simulink file:
 
 ```
 dynamic_model_v4.slx
